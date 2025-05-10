@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemple de Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+      background-color: #f0f0f0;
+    }
+
+    .mon-bouton {
+      display: inline-block;
+      padding: 20px 30px;
+      background-color: #3498db;
+      color: white;
+      font-size: 18px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      margin: 20px 0;
+      width: 120px;
+      height: 200px;
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+    }
+
+    img {
+      width: 200px;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Bienvenue sur ma page !</h1>
+  <p>Ceci est un exemple avec un bouton vertical, une image et un texte.</p>
+
+  <button class="mon-bouton">Clique !</button>
+
+  <br><br>
+
+  <img src="https://placekitten.com/300/200" alt="Un chat mignon">
+
+</body>
+</html>
